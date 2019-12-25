@@ -6,8 +6,8 @@ Erlang clickhouse async bulk inserter
 Usage
 -----
 Rebar3:
-Add eclickhouse to deps in your rebar.config file
-Add eclickhouse to applications in your .app.src file.
+  Add eclickhouse to deps in your rebar.config file.
+  Add eclickhouse to applications in your .app.src file.
 
 Start conn example:
 ```erlang
