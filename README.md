@@ -25,12 +25,12 @@ Start conn example:
 
 Insert example:
 ```erlang
-    eclickhouse:insert(click , #{id => 2, a => 1}).
+    eclickhouse:insert(click, #{id => 2, a => 1}).
 ```
 
 Sync insert (for debug and testing)
 ```erlang
-    eclickhouse:insert(click , #{id => 2, a => 1}, #{mode => sync}).
+    eclickhouse:insert(click, #{id => 2, a => 1}, #{mode => sync}).
 ```
 
 
