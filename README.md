@@ -26,6 +26,7 @@ Start conn example:
 Insert example:
 ```erlang
     eclickhouse:insert(click, #{id => 2, a => 1}).
+    eclickhouse:insert(click, [#{id => 3, a => 1}, [#{id => 4, value => 5}]).
 ```
 
 Sync insert (for debug and testing)
